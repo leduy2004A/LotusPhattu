@@ -1,0 +1,7 @@
+mailServer:
+  host: smtp.gmail.com
+  port: 587
+  email: leduy4520@gmail.com
+  password: ymnlngdgxwhhuupy
+  protocol: smtp
+  isSSL: false

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+<img src="https://shopgarena.net/wp-content/uploads/2022/08/Hinh-anime-FF-chibi.jpg" alt="" style="width: 200px">
+<p th:text="${'Xin chào, ' + name}"></p>
+<p> Chúng tôi gửi thông tin truy cập hệ thống của bạn: </p>
+<p th:text="${'- Tên truy cập: ' + username}"></p>
+<p th:text="${'- Mật khẩu truy cập của bạn là: ' + password}"></p>
+<p>Lê Văn Duy </p>
+<p>Duy nèeee</p>
+</body>
+</html>
